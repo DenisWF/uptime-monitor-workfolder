@@ -4,6 +4,7 @@ from pathlib import Path
 
 import yaml
 
+
 class ConfigError(ValueError):
     """Ошибка в конфиг файле."""
 
