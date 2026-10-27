@@ -9,3 +9,4 @@ targets:
     url: http://nonexistent.invalid #Данный URL направлен на проверку корректности работы.
   - name: Broken
     url: http://127.0.0.1:9  #Для DNS
+
