@@ -1,0 +1,16 @@
+apiVersion: 1
+datasources:
+  - name: Uptime DB
+    uid: uptime-postgres
+    type: grafana-postgresql-datasource
+    access: proxy
+    url: db:5432
+    user: ${POSTGRES_USER}
+    isDefault: true
+    jsonData:
+      database: ${POSTGRES_DB}
+      sslmode: disable
+      postgresVersion: 1600
+      timescaledb: false
+    secureJsonData:
+      password: ${POSTGRES_PASSWORD}
