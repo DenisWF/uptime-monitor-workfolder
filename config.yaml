@@ -5,3 +5,5 @@ targets:
     url: https://github.com
   - name: Example
     url: https://example.com
+  - name: Broken
+    url: http://nonexistent.invalid #Данный URL направлен на проверку корректности работы.
